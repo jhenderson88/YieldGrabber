@@ -1,0 +1,631 @@
+Isotope	State	Intensity (pps)	Proton current	Ion source	Info
+3Li	Li11g	1.20E4	65	Re surface	
+3Li	Li9g	1.20E8	65	Re surface	
+3Li	Li9g	5.20E7	50	Re surface	
+3Li	Li9g	1.00E8	60	Re surface	
+3Li	Li11g	2.30E4	65	Re surface	
+3Li	Li9g	1.20E8	65	Re surface	
+3Li	Li8g	1.40E9	65	Re surface	
+3Li	Li8g	2.10E8	50	Re surface	
+4Be	Be11g	3.60E6	50	TRILIS	
+4Be	Be11g	4.30E6	50	TRILIS	
+38Sr	Sr87m1	5.30E7	50	Re surface	
+49In	In116m1	1.60E6	50	Re surface	
+50Sn	Sn111g	2.30E7	50	TRILIS	
+50Sn	Sn110g	1.90E7	50	TRILIS	
+50Sn	Sn109g	2.50E6	50	TRILIS	
+50Sn	Sn109g	2.50E6	50	TRILIS	
+50Sn	Sn107g	1.40E4	50	TRILIS	
+50Sn	Sn106g	2.90E3	50	TRILIS	
+50Sn	Sn105g	4.60E2	50	TRILIS	
+50Sn	Sn113g	4.30E7	50	TRILIS	
+50Sn	Sn104g	3.00E1	50	TRILIS	
+4Be	Be12g	4.00E3	50	TRILIS	
+4Be	Be7g	7.00E7	50	TRILIS	
+4Be	Be12g	6.90E3	50	TRILIS	
+3Li	Li11g	6.20E3	40	Re surface	
+3Li	Li9g	1.20E7	30	Re surface	
+3Li	Li8g	1.50E8	30	Re surface	
+49In	In106m1	2.00E4	70	Re surface	
+49In	In106g	1.50E5	70	Re surface	
+49In	In105g	1.90E4	70	Re surface	
+49In	In104g	1.30E3	70	Re surface	
+3Li	Li11g	1.50E4	70	Re surface	
+3Li	Li9g	3.80E7	70	Re surface	
+3Li	Li8g	5.70E8	70	Re surface	
+49In	In116m2	1.90E5	70	Re surface	
+49In	In116g	2.40E4	70	Re surface	
+49In	In116m1	3.40E6	70	Re surface	
+47Ag	Ag110g	2.00E4	70	TRILIS	
+49In	In110g	3.10E7	70	Re surface	
+49In	In112m1	1.50E7	70	Re surface	
+49In	In112g	3.20E6	70	Re surface	
+49In	In111m1	2.00E5	70	Re surface	
+49In	In111g	2.30E7	70	Re surface	
+49In	In110m1	1.60E6	70	Re surface	
+49In	In110g	9.20E6	70	Re surface	
+49In	In109m1	5.10E4	70	Re surface	
+49In	In109g	6.80E6	70	Re surface	
+49In	In108m1	1.90E5	70	Re surface	
+49In	In108g	1.70E6	70	Re surface	
+49In	In107m1	4.10E3	70	Re surface	
+49In	In107g	1.00E6	70	Re surface	
+65Tb	Tb148g	1.00E7	70	Re surface	
+65Tb	Tb148m1	3.80E5	70	Re surface	
+59Pr	Pr132g	6.10E5	70	Re surface	Pr132gO16	Pr132gO16
+59Pr	Pr133g	1.40E6	70	Re surface	Pr133gO16	Pr133gO16
+59Pr	Pr135g	3.30E7	70	Re surface	Pr135gO16	Pr135gO16
+60Nd	Nd137g	2.20E6	70	Re surface	Nd137gO16	Nd137gO16
+70Yb	Yb158g	1.70E8	70	Re surface	
+61Pm	Pm142g	4.40E7	70	Re surface	Pm142gO16	Pm142gO16
+65Tb	Tb149g	2.20E6	70	Re surface	Tb149gO16	Tb149gO16
+70Yb	Yb165g	3.20E7	70	Re surface	
+70Yb	Yb159g	4.20E8	70	Re surface	
+63Eu	Eu142m1	8.70E7	70	Re surface	
+63Eu	Eu142g	2.50E6	70	Re surface	
+70Yb	Yb153g	3.80E4	70	Re surface	
+69Tm	Tm153g	1.30E5	70	Re surface	
+68Er	Er153g	3.20E6	70	Re surface	
+67Ho	Ho157g	1.60E8	70	TRILIS	
+67Ho	Ho158g	2.90E8	70	TRILIS	
+66Dy	Dy157g	4.80E7	70	TRILIS	
+67Ho	Ho156g	9.80E7	70	Re surface	
+63Eu	Eu142m1	1.30E8	70	Re surface	
+70Yb	Yb156g	2.50E7	70	Re surface	
+67Ho	Ho156g	7.00E8	70	TRILIS	
+67Ho	Ho153g	3.40E7	70	TRILIS	
+67Ho	Ho151g	7.50E6	70	TRILIS	
+67Ho	Ho151m1	1.50E6	70	TRILIS	
+66Dy	Dy151g	5.50E7	70	Re surface	
+67Ho	Ho149g	9.70E5	70	TRILIS	
+67Ho	Ho153g	2.50E7	70	TRILIS	
+39Y	Y86g	7.20E4	70	Re surface	
+39Y	Y86m1	3.90E4	70	Re surface	
+38Sr	Sr83g	3.00E5	70	Re surface	
+39Y	Y86g	8.80E4	70	Re surface	
+39Y	Y86m1	7.80E4	70	Re surface	
+38Sr	Sr83g	2.80E5	70	Re surface	Sr83F19	Sr83F19
+66Dy	Dy153g	9.60E7	70	Re surface	
+66Dy	Dy153g	4.30E8	70	TRILIS	
+67Ho	Ho153g	3.60E6	70	Re surface	
+66Dy	Dy151g	7.80E7	70	TRILIS	
+66Dy	Dy149g	3.00E7	70	TRILIS	
+66Dy	Dy148g	1.80E7	70	TRILIS	
+38Sr	Sr96g	3.40E3	70	Re surface	
+38Sr	Sr81g	9.70E3	70	Re surface	81Sr19F
+39Y	Y84m1	6.50E3	70	Re surface	84Y16O
+3Li	Li8g	6.30E8	70	Re surface	
+3Li	Li9g	6.90E7	70	Re surface	
+3Li	Li11g	2.10E4	70	Re surface	
+4Be	Be7g	1.50E7	45	TRILIS	
+4Be	Be12g	3.20E2	45	TRILIS	
+3Li	Li8g	2.20E8	45	Re surface	
+3Li	Li11g	3.60E3	45	Re surface	
+4Be	Be11g	2.40E5	45	TRILIS	
+4Be	Be11g	2.00E5	45	TRILIS	
+3Li	Li8g	2.60E8	45	Re surface	
+3Li	Li9g	3.30E7	45	Re surface	
+3Li	Li11g	4.90E3	45	Re surface	
+43Tc	Tc99m1	4.20E3	55	TRILIS	
+37Rb	Rb78m1	2.00E6	50	Re surface	
+37Rb	Rb80g	5.60E7	50	Re surface	
+37Rb	Rb78m1	3.40E4	50	Re surface	78mRb14+
+37Rb	Rb80g	5.90E5	50	Re surface	80Rb13+
+37Rb	Rb80g	9.40E5	50	Re surface	80Rb14+
+55Cs	Cs124m1	3.00E4	50	Re surface	124mCs18+
+55Cs	Cs124m1	4.40E4	50	Re surface	124mCs19+
+55Cs	Cs124m1	5.10E4	50	Re surface	124mCs20+
+55Cs	Cs124m1	5.20E4	50	Re surface	124mCs21+
+55Cs	Cs124m1	4.30E4	50	Re surface	124mCs22+
+55Cs	Cs124m1	3.70E4	50	Re surface	124mCs23+
+55Cs	Cs124m1	2.60E4	50	Re surface	124mCs24+
+55Cs	Cs124g	1.20E6	50	Re surface	124gCs18+
+55Cs	Cs124g	1.60E6	50	Re surface	124gCs19+
+55Cs	Cs124g	1.90E6	50	Re surface	124gCs20+
+55Cs	Cs124g	2.00E6	50	Re surface	124gCs21+
+55Cs	Cs124g	1.60E6	50	Re surface	124gCs22+
+55Cs	Cs124g	1.50E6	50	Re surface	124gCs23+
+55Cs	Cs124g	1.10E6	50	Re surface	124gCs24+
+67Ho	Ho156g	1.90E8	50	Re surface	
+19K	K48g	1.40E5	50	Re surface	
+19K	K48g	3.10E2	50	Re surface	48K8+
+19K	K48g	9.00E2	50	Re surface	48K9+
+19K	K48g	7.50E2	50	Re surface	48K10+
+19K	K48g	4.30E2	50	Re surface	48K11+
+37Rb	Rb80g	3.90E7	50	Re surface	
+37Rb	Rb80g	7.60E5	50	Re surface	80Rb12+
+37Rb	Rb80g	5.60E5	50	Re surface	80Rb13+
+37Rb	Rb80g	7.60E5	50	Re surface	80Rb14+
+37Rb	Rb80g	8.60E5	50	Re surface	80Rb15+
+37Rb	Rb80g	8.60E5	50	Re surface	80Rb16+
+37Rb	Rb80g	6.20E5	50	Re surface	80Rb17+
+37Rb	Rb80g	3.30E5	50	Re surface	80Rb18+
+69Tm	Tm156g	6.70E7	50	Re surface	
+70Yb	Yb156g	2.30E7	50	Re surface	
+56Ba	Ba125g	2.00E6	50	Re surface	
+20Ca	Ca47g	8.10E6	50	Re surface	
+55Cs	Cs122m1	2.90E6	50	Re surface	
+55Cs	Cs124m1	2.70E6	50	Re surface	
+55Cs	Cs122m2	2.80E6	50	Re surface	
+55Cs	Cs122g	1.80E7	50	Re surface	
+55Cs	Cs123g	5.30E7	50	Re surface	
+55Cs	Cs124g	1.10E8	50	Re surface	
+55Cs	Cs125g	1.40E8	50	Re surface	
+55Cs	Cs126g	6.00E7	50	Re surface	
+19K	K38m1	5.50E3	50	Re surface	
+19K	K37g	5.30E2	50	Re surface	
+19K	K38g	2.80E5	50	Re surface	
+19K	K46g	9.40E6	50	Re surface	
+19K	K47g	1.90E6	50	Re surface	
+19K	K48g	1.10E5	50	Re surface	
+37Rb	Rb78m1	2.40E6	50	Re surface	
+37Rb	Rb76g	1.20E4	50	Re surface	
+37Rb	Rb77g	1.20E5	50	Re surface	
+37Rb	Rb78g	1.00E6	50	Re surface	
+37Rb	Rb79g	2.10E7	50	Re surface	
+37Rb	Rb80g	8.10E7	50	Re surface	
+3Li	Li8g	1.60E8	50	Re surface	
+31Ga	Ga65g	2.10E5	50	Re surface	
+31Ga	Ga67g	6.50E6	50	Re surface	
+31Ga	Ga71g	1.60E7	50	Re surface	
+31Ga	Ga76g	3.30E4	50	Re surface	
+32Ge	Ge67g	1.20E4	50	Re surface	
+32Ge	Ge71g	1.90E7	50	Re surface	
+32Ge	Ge76g	4.00E4	50	Re surface	
+3Li	Li7g	1.20E10	50	Re surface	
+4Be	Be10g	1.70E8	45	TRILIS	
+4Be	Be11g	2.40E6	50	TRILIS	
+4Be	Be12g	4.40E3	50	TRILIS	
+3Li	Li11g	1.60E4	50	Re surface	
+49In	In116m1	4.00E6	70	Re surface	
+49In	In116m2	3.20E5	70	Re surface	
+49In	In116g	1.20E4	70	Re surface	
+55Cs	Cs124m1	2.60E6	70	Re surface	
+55Cs	Cs124g	9.50E7	70	Re surface	
+55Cs	Cs126g	9.20E7	70	Re surface	
+55Cs	Cs118g	1.20E4	70	Re surface	
+49In	In118m1	4.70E5	70	Re surface	
+49In	In118m2	1.10E5	70	Re surface	
+20Ca	Ca51g	3.20E3	70	Re surface	
+20Ca	Ca51g	1.50E4	70	TRILIS	
+20Ca	Ca39g	5.10E0	70	TRILIS	
+19K	K49g	6.10E3	70	Re surface	
+20Ca	Ca50g	1.50E4	70	Re surface	
+3Li	Li7g	2.50E10	70	Re surface	
+3Li	Li8g	9.10E8	70	Re surface	
+3Li	Li9g	8.00E7	70	Re surface	
+3Li	Li11g	1.60E4	70	Re surface	
+20Ca	Ca50g	1.00E2	70	Re surface	50Ca19F
+20Ca	Ca49g	6.30E5	70	TRILIS	
+20Ca	Ca50g	1.20E5	70	TRILIS	
+20Ca	Ca52g	1.30E3	70	TRILIS	
+37Rb	Rb80g	3.40E7	65	Re surface	
+19K	K38m1	1.00E4	70	Re surface	
+19K	K37g	1.10E3	70	Re surface	
+19K	K38g	2.20E5	70	Re surface	
+19K	K46g	6.60E6	70	Re surface	
+19K	K47g	8.40E5	70	Re surface	
+19K	K48g	3.00E3	70	Re surface	
+19K	K49g	1.10E4	70	Re surface	
+19K	K50g	5.60E2	70	Re surface	
+19K	K51g	2.90E1	70	Re surface	
+3Li	Li8g	1.10E8	70	Re surface	
+3Li	Li9g	1.90E7	70	Re surface	
+3Li	Li11g	2.60E3	70	Re surface	
+55Cs	Cs128g	8.80E6	70	Re surface	
+55Cs	Cs121m1	2.20E6	70	Re surface	
+55Cs	Cs124m1	4.20E5	70	Re surface	
+55Cs	Cs121g	1.80E6	70	Re surface	
+55Cs	Cs124g	2.90E7	70	Re surface	
+55Cs	Cs126g	2.60E7	70	Re surface	
+31Ga	Ga76g	1.50E3	70	Re surface	
+31Ga	Ga77g	2.10E3	70	Re surface	
+37Rb	Rb80g	2.00E8	70	Re surface	
+3Li	Li8g	5.00E7	50	Re surface	
+56Ba	Ba125g	1.20E6	40	Re surface	
+55Cs	Cs125g	1.60E8	40	Re surface	
+55Cs	Cs128g	4.60E7	40	Re surface	
+55Cs	Cs130g	1.10E7	40	Re surface	
+55Cs	Cs130m1	1.10E7	40	Re surface	
+49In	In103m1	1.00E2	40	Re surface	
+49In	In104g	4.30E2	40	Re surface	
+49In	In108g	1.90E6	40	Re surface	
+49In	In109g	9.30E6	40	Re surface	
+50Sn	Sn106g	6.10E1	40	TRILIS	
+50Sn	Sn107g	4.40E3	40	TRILIS	
+50Sn	Sn108g	5.10E5	40	TRILIS	
+50Sn	Sn109g	2.80E6	40	TRILIS	
+50Sn	Sn113g	1.40E8	40	TRILIS	
+50Sn	Sn117g	8.40E7	40	TRILIS	
+50Sn	Sn119g	2.60E7	40	TRILIS	
+50Sn	Sn121g	2.50E6	40	TRILIS	
+50Sn	Sn110g	3.40E7	40	TRILIS	
+50Sn	Sn111g	4.40E7	40	TRILIS	
+50Sn	Sn112g	2.90E8	40	TRILIS	
+50Sn	Sn114g	2.90E8	40	TRILIS	
+50Sn	Sn115g	2.10E8	40	TRILIS	
+50Sn	Sn116g	3.40E8	40	TRILIS	
+50Sn	Sn118g	1.90E8	40	TRILIS	
+50Sn	Sn120g	3.20E7	40	TRILIS	
+50Sn	Sn122g	2.50E7	40	TRILIS	
+50Sn	Sn124g	1.30E7	40	TRILIS	
+55Cs	Cs124g	1.40E6	40	Re surface	124gCs16+
+55Cs	Cs124g	1.20E6	40	Re surface	124gCs18+
+55Cs	Cs124g	7.00E5	40	Re surface	124gCs20+
+55Cs	Cs124m1	6.40E3	40	Re surface	124mCs11+
+55Cs	Cs124m1	1.90E4	40	Re surface	124mCs16+
+55Cs	Cs124m1	1.70E4	40	Re surface	124mCs18+
+55Cs	Cs124m1	1.30E4	40	Re surface	124mCs20+
+55Cs	Cs124g	4.40E5	40	Re surface	124gCs11+
+19K	K48g	8.00E3	40	Re surface	48K1+
+19K	K47g	1.30E6	40	Re surface	47K1+
+19K	K48g	1.90E1	40	Re surface	48K8+
+19K	K48g	1.00E1	40	Re surface	48K9+
+19K	K47g	1.20E3	40	Re surface	47K8+
+19K	K47g	4.10E3	40	Re surface	47K9+
+19K	K47g	5.50E2	40	Re surface	47K10+
+55Cs	Cs122m1	2.60E6	40	Re surface	
+55Cs	Cs123m1	1.10E6	40	Re surface	
+55Cs	Cs124m1	1.30E6	40	Re surface	
+55Cs	Cs122m2	4.40E5	40	Re surface	
+55Cs	Cs122g	8.70E6	40	Re surface	
+55Cs	Cs123g	7.90E7	40	Re surface	
+55Cs	Cs124g	7.50E7	40	Re surface	
+55Cs	Cs124g	1.20E6	40	Re surface	124gCs14+
+55Cs	Cs124g	1.10E6	40	Re surface	124gCs15+
+55Cs	Cs124g	1.00E6	40	Re surface	124gCs17+
+55Cs	Cs124g	9.40E5	40	Re surface	124gCs19+
+55Cs	Cs124g	3.40E5	40	Re surface	124gCs21+
+55Cs	Cs124g	1.70E5	40	Re surface	124gCs22+
+55Cs	Cs124m1	6.80E3	40	Re surface	124mCs12+
+55Cs	Cs124m1	1.00E4	40	Re surface	124mCs13+
+55Cs	Cs124m1	1.30E4	40	Re surface	124mCs14+
+55Cs	Cs124m1	1.60E4	40	Re surface	124mCs15+
+55Cs	Cs124m1	1.50E4	40	Re surface	124mCs17+
+55Cs	Cs124m1	1.30E4	40	Re surface	124mCs19+
+55Cs	Cs124m1	5.80E3	40	Re surface	124mCs21+
+55Cs	Cs124m1	3.10E3	40	Re surface	124mCs22+
+55Cs	Cs124g	5.00E5	40	Re surface	124gCs12+
+55Cs	Cs124g	6.40E5	40	Re surface	124gCs13+
+37Rb	Rb80g	6.60E7	40	Re surface	
+37Rb	Rb80g	1.40E5	40	Re surface	80Rb9+
+37Rb	Rb80g	2.20E5	40	Re surface	80Rb10+
+37Rb	Rb80g	3.40E5	40	Re surface	80Rb11+
+37Rb	Rb80g	6.90E5	40	Re surface	80Rb12+
+37Rb	Rb80g	6.20E5	40	Re surface	80Rb13+
+37Rb	Rb80g	3.00E5	40	Re surface	80Rb14+
+37Rb	Rb80g	1.90E5	40	Re surface	80Rb15+
+37Rb	Rb80g	8.90E4	40	Re surface	80Rb16+
+37Rb	Rb80g	4.70E4	40	Re surface	80Rb17+
+47Ag	Ag115m1	1.90E3	40	TRILIS	
+47Ag	Ag116m1	7.00E2	40	TRILIS	
+47Ag	Ag115g	6.50E4	40	TRILIS	
+49In	In112m1	8.80E6	40	Re surface	
+49In	In115m1	1.20E5	40	Re surface	
+49In	In116m1	1.40E6	40	Re surface	
+49In	In116m2	6.50E4	40	Re surface	
+49In	In112g	2.00E6	40	Re surface	
+49In	In116g	4.30E4	40	Re surface	
+47Ag	Ag112g	5.30E6	40	TRILIS	
+31Ga	Ga74m1	1.00E3	40	Re surface	
+31Ga	Ga72g	6.00E6	40	Re surface	
+31Ga	Ga73g	5.80E6	40	Re surface	
+31Ga	Ga74g	2.30E5	40	Re surface	
+31Ga	Ga75g	3.40E4	40	Re surface	
+31Ga	Ga76g	7.10E3	40	Re surface	
+19K	K46g	4.50E6	40	Re surface	
+19K	K47g	5.10E5	40	Re surface	
+19K	K48g	9.10E3	40	Re surface	
+19K	K49g	2.00E3	40	Re surface	
+19K	K50g	1.30E2	40	Re surface	
+37Rb	Rb78m1	1.80E6	40	Re surface	
+37Rb	Rb81m1	1.20E8	40	Re surface	
+37Rb	Rb82m1	7.60E8	40	Re surface	
+37Rb	Rb84m1	1.10E9	40	Re surface	
+37Rb	Rb86m1	4.70E8	40	Re surface	
+37Rb	Rb90m1	1.10E7	40	Re surface	
+37Rb	Rb76g	1.50E3	40	Re surface	
+37Rb	Rb77g	1.60E5	40	Re surface	
+37Rb	Rb78g	7.50E5	40	Re surface	
+37Rb	Rb79g	1.90E7	40	Re surface	
+37Rb	Rb80g	6.20E7	40	Re surface	
+37Rb	Rb81g	9.10E7	40	Re surface	
+37Rb	Rb82g	5.80E9	40	Re surface	
+37Rb	Rb88g	1.80E8	40	Re surface	
+37Rb	Rb89g	6.20E7	40	Re surface	
+37Rb	Rb91g	2.10E6	40	Re surface	
+37Rb	Rb92g	2.00E4	40	Re surface	
+37Rb	Rb93g	2.40E4	40	Re surface	
+37Rb	Rb94g	7.70E2	40	Re surface	
+37Rb	Rb95g	6.00E1	40	Re surface	
+38Sr	Sr83m1	4.30E5	40	Re surface	
+38Sr	Sr85m1	1.70E7	40	Re surface	
+38Sr	Sr87m1	9.40E7	40	Re surface	
+38Sr	Sr81g	1.80E6	40	Re surface	
+38Sr	Sr85g	1.90E8	40	Re surface	
+39Y	Y89m1	5.00E2	40	Re surface	89mY16O
+4Be	Be10g	3.10E7	40	TRILIS	
+4Be	Be11g	3.20E5	40	TRILIS	
+4Be	Be12g	1.40E2	40	TRILIS	
+3Li	Li8g	1.80E8	40	Re surface	
+3Li	Li9g	9.70E6	40	Re surface	
+3Li	Li11g	1.80E3	40	Re surface	
+13Al	Al28g	3.20E4	40	Re surface	
+13Al	Al29g	5.70E4	40	Re surface	
+13Al	Al30g	8.10E3	40	Re surface	
+13Al	Al31g	6.70E1	40	Re surface	
+11Na	Na24m1	2.60E4	40	Re surface	
+11Na	Na20g	2.40E2	40	Re surface	
+11Na	Na21g	3.80E4	40	Re surface	
+11Na	Na24g	4.40E7	40	Re surface	
+11Na	Na25g	1.20E7	40	Re surface	
+11Na	Na26g	1.10E6	40	Re surface	
+11Na	Na27g	2.20E5	40	Re surface	
+11Na	Na28g	4.60E3	40	Re surface	
+11Na	Na29g	1.50E3	40	Re surface	
+11Na	Na30g	1.90E2	40	Re surface	
+11Na	Na31g	6.50E0	40	Re surface	
+55Cs	Cs122m1	3.50E3	65	Re surface	122mCs19+
+55Cs	Cs122g	1.70E4	65	Re surface	122gCs19+
+55Cs	Cs124g	5.60E4	65	Re surface	124gCs16+
+55Cs	Cs124g	1.60E5	65	Re surface	124gCs17+
+55Cs	Cs124g	2.20E5	65	Re surface	124gCs18+
+55Cs	Cs124g	2.30E5	65	Re surface	124gCs19+
+55Cs	Cs124g	1.50E5	65	Re surface	124gCs20+
+55Cs	Cs124g	8.90E4	65	Re surface	124gCs21+
+55Cs	Cs124g	1.10E4	65	Re surface	124gCs22+
+49In	In110m1	1.70E6	65	Re surface	
+49In	In110g	1.20E7	65	Re surface	
+37Rb	Rb80g	2.50E5	65	Re surface	80Rb12+
+37Rb	Rb80g	3.30E5	65	Re surface	80Rb13+
+37Rb	Rb80g	2.60E5	65	Re surface	80Rb14+
+37Rb	Rb80g	1.50E5	65	Re surface	80Rb15+
+55Cs	Cs122m1	1.00E6	65	Re surface	
+55Cs	Cs122m2	2.30E5	65	Re surface	
+55Cs	Cs122g	3.40E6	65	Re surface	
+49In	In106m1	6.50E3	65	Re surface	
+49In	In107m1	1.60E3	60	Re surface	
+49In	In104g	4.00E2	60	Re surface	
+49In	In105g	8.50E3	60	Re surface	
+49In	In106g	6.90E4	65	Re surface	
+49In	In107g	4.90E5	60	Re surface	
+39Y	Y91m1	1.90E4	65	Re surface	91mY16O
+39Y	Y89g	2.20E3	60	Re surface	89mY16O
+39Y	Y90g	3.00E4	65	Re surface	90Y16O
+31Ga	Ga76g	4.50E3	60	Re surface	
+19K	K46g	1.90E6	60	Re surface	
+19K	K48g	1.30E4	60	Re surface	
+37Rb	Rb80g	1.10E7	60	Re surface	
+37Rb	Rb80g	2.20E4	60	Re surface	80Rb10+
+37Rb	Rb80g	5.60E4	60	Re surface	80Rb11+
+37Rb	Rb80g	7.50E4	60	Re surface	80Rb12+
+37Rb	Rb80g	8.90E4	60	Re surface	80Rb13+
+37Rb	Rb80g	8.50E4	60	Re surface	80Rb14+
+37Rb	Rb80g	4.30E4	60	Re surface	80Rb15+
+37Rb	Rb80g	3.10E4	60	Re surface	80Rb16+
+3Li	Li11g	2.80E3	65	Re surface	
+4Be	Be11g	6.60E5	40	TRILIS	
+4Be	Be12g	1.40E2	40	TRILIS	
+3Li	Li11g	3.30E3	55	Re surface	
+4Be	Be10g	2.90E8	40	TRILIS	
+3Li	Li9g	1.60E7	40	Re surface	
+13Al	Al26g	2.20E7	70	Re surface	
+13Al	Al28g	1.30E6	70	Re surface	
+13Al	Al29g	7.00E5	70	Re surface	
+13Al	Al30g	3.10E3	70	Re surface	
+13Al	Al31g	9.50E2	70	Re surface	
+13Al	Al26m1	9.30E3	70	Re surface	
+11Na	Na20g	9.50E2	70	Re surface	
+11Na	Na21g	5.30E5	70	Re surface	
+11Na	Na22g	1.40E8	70	Re surface	
+11Na	Na24g	2.80E7	70	Re surface	
+11Na	Na25g	1.00E8	70	Re surface	
+11Na	Na26g	5.90E6	70	Re surface	
+11Na	Na27g	1.30E6	70	Re surface	
+11Na	Na28g	1.40E4	70	Re surface	
+11Na	Na29g	2.70E3	70	Re surface	
+11Na	Na30g	1.30E3	70	Re surface	
+11Na	Na31g	1.10E2	70	Re surface	
+11Na	Na24m1	1.70E5	70	Re surface	
+3Li	Li7g	4.50E10	60	Re surface	
+3Li	Li8g	5.50E8	75	Re surface	
+3Li	Li9g	7.70E7	75	Re surface	
+3Li	Li11g	1.50E4	75	Re surface	
+3Li	Li6g	6.10E9	35	Re surface	
+49In	In117g	1.40E6	35	Re surface	
+49In	In103m1	1.00E2	35	Re surface	
+49In	In105m1	5.20E2	35	Re surface	
+49In	In106m1	9.40E3	35	Re surface	
+49In	In107m1	1.60E5	35	Re surface	
+49In	In108m1	2.20E5	35	Re surface	
+49In	In109m1	4.20E4	35	Re surface	
+49In	In110m1	6.80E5	35	Re surface	
+49In	In111m1	1.50E5	35	Re surface	
+49In	In112m1	1.10E7	35	Re surface	
+49In	In116m1	2.60E6	35	Re surface	
+49In	In109m2	1.20E4	35	Re surface	
+49In	In116m2	2.30E5	35	Re surface	
+37Rb	Rb91g	3.50E6	35	Re surface	
+37Rb	Rb92g	4.60E4	35	Re surface	
+37Rb	Rb93g	4.50E4	35	Re surface	
+37Rb	Rb94g	3.30E3	35	Re surface	
+37Rb	Rb95g	4.60E2	35	Re surface	
+37Rb	Rb90m1	1.50E7	35	Re surface	
+39Y	Y83g	7.30E3	35	Re surface	83gY16O
+39Y	Y84g	6.60E2	35	Re surface	84gY16O
+39Y	Y86g	3.10E5	35	Re surface	86Y16O
+39Y	Y87g	5.50E5	35	Re surface	87gY16O
+39Y	Y84m1	1.10E4	35	Re surface	84mY16O
+39Y	Y86m1	7.60E4	35	Re surface	86mY16O
+39Y	Y87m1	3.60E5	35	Re surface	87mY16O
+39Y	Y88g	9.20E3	35	Re surface	88mY16O
+39Y	Y89m1	7.10E3	35	Re surface	89mY16O
+39Y	Y90m1	2.20E5	35	Re surface	90Y16O
+39Y	Y91m1	3.20E2	35	Re surface	91mY16O
+47Ag	Ag98g	3.90E1	35	TRILIS	
+47Ag	Ag99g	3.20E2	35	TRILIS	
+47Ag	Ag100g	2.50E3	35	TRILIS	
+47Ag	Ag101g	2.40E4	35	TRILIS	
+47Ag	Ag102g	1.90E5	35	TRILIS	
+47Ag	Ag103g	8.50E5	35	TRILIS	
+47Ag	Ag104g	1.10E6	35	TRILIS	
+47Ag	Ag110g	2.00E5	35	TRILIS	
+47Ag	Ag112g	2.90E6	35	TRILIS	
+47Ag	Ag117g	2.10E3	35	TRILIS	
+47Ag	Ag100m1	1.60E4	35	TRILIS	
+47Ag	Ag101m1	7.50E2	35	TRILIS	
+47Ag	Ag102m1	9.40E4	35	TRILIS	
+47Ag	Ag103m1	9.30E4	35	TRILIS	
+47Ag	Ag104m1	1.90E5	35	TRILIS	
+47Ag	Ag105m1	7.20E6	35	TRILIS	
+47Ag	Ag107m1	1.20E6	35	TRILIS	
+47Ag	Ag109m1	3.70E6	35	TRILIS	
+47Ag	Ag111m1	4.00E4	35	TRILIS	
+47Ag	Ag113m1	1.00E5	35	TRILIS	
+47Ag	Ag116m1	1.30E3	35	TRILIS	
+47Ag	Ag117m1	3.00E2	35	TRILIS	
+55Cs	Cs123g	5.60E7	35	Re surface	
+55Cs	Cs123m1	5.70E6	35	Re surface	
+49In	In104g	1.20E3	35	Re surface	
+49In	In105g	3.20E4	35	Re surface	
+49In	In106g	1.60E5	35	Re surface	
+49In	In107g	8.40E5	35	Re surface	
+49In	In108g	1.50E6	35	Re surface	
+49In	In109g	5.40E6	35	Re surface	
+49In	In110g	5.70E6	35	Re surface	
+49In	In111g	2.20E7	35	Re surface	
+49In	In112g	1.60E6	35	Re surface	
+49In	In116g	4.20E4	35	Re surface	
+56Ba	Ba125g	4.10E5	35	Re surface	
+4Be	Be9g	1.10E8	35	TRILIS	
+4Be	Be10g	1.10E8	35	TRILIS	
+4Be	Be11g	1.90E6	35	TRILIS	
+4Be	Be12g	3.00E3	35	TRILIS	
+55Cs	Cs118g	1.20E3	35	Re surface	
+55Cs	Cs119g	1.70E4	35	Re surface	
+55Cs	Cs121g	1.30E6	35	Re surface	
+55Cs	Cs122g	6.60E6	35	Re surface	
+55Cs	Cs124g	2.20E7	35	Re surface	
+55Cs	Cs125g	4.60E7	35	Re surface	
+55Cs	Cs126g	2.00E7	35	Re surface	
+55Cs	Cs119m1	2.20E4	35	Re surface	
+55Cs	Cs120m1	2.50E5	35	Re surface	
+55Cs	Cs121m1	1.70E6	35	Re surface	
+55Cs	Cs122m1	9.50E5	35	Re surface	
+55Cs	Cs124m1	3.60E5	35	Re surface	
+49In	In119g	2.10E4	35	Re surface	
+49In	In118m1	5.10E4	35	Re surface	
+49In	In118m2	1.50E4	35	Re surface	
+20Ca	Ca49g	1.10E6	55	Re surface	
+20Ca	Ca50g	1.20E5	55	Re surface	
+20Ca	Ca51g	7.60E3	55	Re surface	
+20Ca	Ca52g	7.50E2	55	Re surface	
+19K	K37g	3.30E3	55	Re surface	
+19K	K38g	8.20E5	55	Re surface	
+19K	K42g	2.80E8	55	Re surface	
+19K	K43g	2.90E8	55	Re surface	
+19K	K44g	1.20E8	55	Re surface	
+19K	K47g	2.40E6	55	Re surface	
+19K	K48g	7.90E4	55	Re surface	
+19K	K49g	2.60E4	55	Re surface	
+19K	K50g	2.90E3	55	Re surface	
+19K	K51g	8.30E1	55	Re surface	
+19K	K52g	3.00E0	55	Re surface	
+19K	K38m1	3.70E4	55	Re surface	
+21Sc	Sc50g	2.20E5	55	Re surface	
+21Sc	Sc51g	3.30E4	55	Re surface	
+21Sc	Sc52g	4.90E3	55	Re surface	
+22Ti	Ti51g	2.20E5	55	Re surface	
+22Ti	Ti52g	4.50E4	55	Re surface	
+58Ce	Ce131g	1.80E6	35	Re surface	
+58Ce	Ce131m1	1.10E6	35	Re surface	
+58Ce	Ce135m1	5.10E5	35	Re surface	
+60Nd	Nd134g	1.50E7	35	Re surface	
+60Nd	Nd135g	5.00E7	35	Re surface	
+61Pm	Pm134m1	1.60E5	35	Re surface	
+61Pm	Pm135m1	2.20E5	35	Re surface	
+61Pm	Pm134g	4.60E4	35	Re surface	
+61Pm	Pm135g	2.60E5	35	Re surface	
+59Pr	Pr131g	5.20E5	35	Re surface	
+59Pr	Pr134g	9.40E6	35	Re surface	
+59Pr	Pr134m1	2.60E7	35	Re surface	
+59Pr	Pr135g	1.60E8	35	Re surface	
+62Sm	Sm139m1	2.10E5	10	Re surface	
+62Sm	Sm139g	2.90E6	10	Re surface	
+69Tm	Tm158g	6.60E8	35	Re surface	
+70Yb	Yb158g	4.20E8	35	Re surface	
+56Ba	Ba129g	4.80E7	40	Re surface	
+56Ba	Ba129m1	3.10E7	40	Re surface	
+58Ce	Ce132g	7.90E6	40	Re surface	
+58Ce	Ce132m1	1.60E6	40	Re surface	
+68Er	Er156g	6.80E8	40	Re surface	
+63Eu	Eu138g	3.50E5	40	Re surface	
+57La	La128g	7.80E5	40	Re surface	
+57La	La129g	2.70E6	40	Re surface	
+57La	La130g	2.30E6	40	Re surface	
+57La	La131g	6.40E6	40	Re surface	
+57La	La132g	1.00E7	40	Re surface	
+57La	La132m1	1.50E7	40	Re surface	
+60Nd	Nd137m1	1.90E6	40	Re surface	
+60Nd	Nd133g	5.50E5	40	Re surface	
+60Nd	Nd136g	4.40E7	40	Re surface	
+60Nd	Nd137g	6.50E7	40	Re surface	
+61Pm	Pm136m1	2.80E6	40	Re surface	
+61Pm	Pm138m1	1.50E7	40	Re surface	
+61Pm	Pm136g	2.70E5	40	Re surface	
+61Pm	Pm137g	1.60E6	40	Re surface	
+59Pr	Pr130g	1.10E5	40	Re surface	
+59Pr	Pr132g	9.20E5	40	Re surface	
+59Pr	Pr133g	2.60E6	40	Re surface	
+59Pr	Pr131m1	3.40E4	40	Re surface	
+59Pr	Pr136g	2.30E7	40	Re surface	
+62Sm	Sm136g	2.40E6	40	Re surface	
+62Sm	Sm137g	5.70E5	40	Re surface	
+69Tm	Tm156g	2.50E7	40	Re surface	
+70Yb	Yb156g	8.40E6	40	Re surface	
+66Dy	Dy157g	2.10E6	40	Re surface	
+67Ho	Ho154m1	4.50E4	40	Re surface	154mHo16O
+67Ho	Ho153g	1.90E5	40	Re surface	153gHo16O
+67Ho	Ho154g	5.00E6	40	Re surface	154gHo16O
+67Ho	Ho156g	5.80E5	40	Re surface	156gHo16O
+67Ho	Ho158g	1.80E5	40	Re surface	158gHo16O
+67Ho	Ho159g	2.20E5	40	Re surface	159gHo16O
+71Lu	Lu168m1	3.60E7	40	Re surface	
+71Lu	Lu171m1	4.30E7	40	Re surface	
+71Lu	Lu178m1	2.50E6	40	Re surface	
+71Lu	Lu168g	2.70E6	40	Re surface	
+71Lu	Lu169g	9.80E8	40	Re surface	
+71Lu	Lu170g	1.40E9	40	Re surface	
+71Lu	Lu171g	3.30E9	40	Re surface	
+71Lu	Lu172g	3.60E8	40	Re surface	
+71Lu	Lu172g	3.10E9	40	Re surface	
+71Lu	Lu178g	5.00E6	40	Re surface	
+69Tm	Tm173g	2.60E6	40	Re surface	
+69Tm	Tm174g	5.30E5	40	Re surface	
+69Tm	Tm175g	3.40E5	40	Re surface	
+69Tm	Tm176g	2.80E4	40	Re surface	
+70Yb	Yb176m1	3.40E5	40	Re surface	
+70Yb	Yb177m1	7.70E4	40	Re surface	
+70Yb	Yb169g	2.70E9	40	Re surface	
+70Yb	Yb177g	1.30E6	40	Re surface	
+68Er	Er158g	2.20E9	40	Re surface	
+63Eu	Eu142m1	1.80E8	40	Re surface	
+63Eu	Eu142g	1.50E7	40	Re surface	
+63Eu	Eu143g	2.50E9	40	Re surface	
+63Eu	Eu144g	2.90E8	40	Re surface	
+63Eu	Eu145g	3.10E9	40	Re surface	
+63Eu	Eu146g	1.60E9	40	Re surface	
+64Gd	Gd145m1	3.30E6	40	Re surface	
+67Ho	Ho156g	9.10E8	40	Re surface	
+67Ho	Ho158g	1.20E8	40	Re surface	
+60Nd	Nd129g	2.30E4	40	Re surface	
+62Sm	Sm143m1	5.70E7	40	Re surface	
+62Sm	Sm143g	1.10E9	40	Re surface	
+65Tb	Tb145m1	9.30E5	40	Re surface	
+65Tb	Tb146m1	3.20E6	40	Re surface	
+66Dy	Dy147m1	1.90E4	10	Re surface	
+66Dy	Dy149g	9.40E5	10	Re surface	
+66Dy	Dy151g	1.30E6	10	Re surface	
+66Dy	Dy152g	2.10E6	10	Re surface	
+70Yb	Yb160g	8.40E9	10	Re surface	
+70Yb	Yb162g	1.20E9	10	Re surface	
