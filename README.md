@@ -14,7 +14,7 @@ To run the code, in ROOT, simply create a new instance of the class as you would
 
 This will grab data from the .dat files stored in ./Data/ and arrange it into a reasonable format. To, for example, plot average yields:
 
-> t.PlotMeanYields()
+> t.PlotMeanItensity()
 
 You will then be prompted for a choice of ion source, and asked whether you want to be able to interact with the histogram. If you choose to interact, double-clicking on an isotope on the yield histogram will output all yield information to the terminal.
 
