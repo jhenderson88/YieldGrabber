@@ -11,12 +11,27 @@ This will create the necessary libraries and only needs to be done once. From th
 To run the code, in ROOT, simply create a new instance of the class as you would for any other ROOT class, eg:
 
 > YieldGrabber t
+> t.Start()
 
-This will grab data from the .dat files stored in ./Data/ and arrange it into a reasonable format. To, for example, plot average yields:
+This will grab data from the .dat files stored in ./Data/ and arrange it into a reasonable format. In case you want to run elsewhere, use:
+
+> t.Start("/home/user/YieldGrabber/Data/")
+
+For example, to grab the data.
+
+To, for example, plot average yields:
 
 > t.PlotMeanIntensity()
 
 You will then be prompted for a choice of ion source, and asked whether you want to be able to interact with the histogram. If you choose to interact, double-clicking on an isotope on the yield histogram will output all yield information to the terminal.
+
+# Easy running
+
+To run easily, edit RunYields.C to have the correct absolute addresses and add the line:
+
+> alias GrabISACYields='root -l ~/YieldGrabber/RunYields.C'
+
+To your .bashrc. 
 
 # Data grabbing
 
