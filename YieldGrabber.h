@@ -16,74 +16,76 @@
 
 using namespace std;
 
-typedef struct _Isotope {																													// Data structure to define isotopes, only one required for each isotope
-	vector<double> yield;																														// Vector of isotope yields corresponding to:
-	vector<int> proton_current;																											// The proton current on target
-	vector<std::string> ion_source;																									// The ion source used 
-	vector<int>	state;																															// The state of the isotope (e.g. ground state = 1, first metastable = 2)
-	vector<std::string> tar_mat;																										// The target material (SiC, TiC, etc.)
-	double avg_yield;																																// The mean yield for the isotope
-	double max_yield;																																// Maximum yield for the isotope
+typedef struct _Isotope {																															// Data structure to define isotopes, only one required for each isotope
+	vector<double> yield;																																// Vector of isotope yields corresponding to:
+	vector<int> proton_current;																													// The proton current on target
+	vector<std::string> ion_source;																											// The ion source used 
+	vector<int>	state;																																	// The state of the isotope (e.g. ground state = 1, first metastable = 2)
+	vector<std::string> tar_mat;																												// The target material (SiC, TiC, etc.)
+	double avg_yield;																																		// The mean yield for the isotope
+	double max_yield;																																		// Maximum yield for the isotope
 } Isotope;
 
-class YieldGrabber {																																// The class itself
+class YieldGrabber {																																	// The class itself
 	
-	RQ_OBJECT("YieldGrabber")																												// This allows for signal/slot communication with the MouseAction subclass
+	RQ_OBJECT("YieldGrabber")																														// This allows for signal/slot communication with the MouseAction subclass
 
 
 	private :	
-		vector< vector< std::string > > data;																					// Data, line-by-line
-		vector< std::string > line_vec;																								// Used for data input
-		vector< string > target_mat;																									// Used to retain information on target material
+		vector< vector< std::string > > data;																							// Data, line-by-line
+		vector< std::string > line_vec;																										// Used for data input
+		vector< string > target_mat;																											// Used to retain information on target material
 
-		bool data_grabbed;																														// Flag: Is the data loaded?
+		bool data_grabbed;																																// Flag: Is the data loaded?
 
-		Isotope Nuclei[146][94];																											// Nuclear chart of isotopes [N][Z]
+		Isotope Nuclei[146][94];																													// Nuclear chart of isotopes [N][Z]
 
-		int n_stored, z_stored;																												// Used to pass N and Z from mouse interaction with TCanvas
-		MouseAction *mouseaction;																											// Instance of the MouseAction class, used to interact with the TCanvas
+		int n_stored, z_stored;																														// Used to pass N and Z from mouse interaction with TCanvas
+		MouseAction *mouseaction;																													// Instance of the MouseAction class, used to interact with the TCanvas
+		const char* datadir;
 
 	public :
 		
-		YieldGrabber();																																// Constructor
-		virtual ~YieldGrabber(){;}																											// Destructor
+		YieldGrabber();																																		// Constructor
+		virtual ~YieldGrabber(){;}																												// Destructor
 
 	public :
 
-		void Clear();																																	// Basic clear function, resets vectors, etc.
+		void Clear();																																			// Basic clear function, resets vectors, etc.
 
-		void PrintIsotopeInfo(int z, int n);																					// Print yields for the isotope given N and Z
-		void PrintIsotopeInfo();																											// As above but uses n_stored and z_stored
-		void GrabData(const char*); 																									// Grab the data from the .dat files - put it in the data vector
-		void ProcessData();																														// Turn the data into Isotopes
-		void CreateIntensityMatrix(int source = 0);																		// Calculate max and average yields, depending on the requested source
-		void PlotMeanIntensity();																											// Plot TH2D of the mean intensity
-		void PlotMaxIntensity();																											// Plot TH2D of the maximum intensity
+		void PrintIsotopeInfo(int z, int n);																							// Print yields for the isotope given N and Z
+		void PrintIsotopeInfo();																													// As above but uses n_stored and z_stored
+		void GrabData(const char* target, const char* inp); 	
+																																											// Grab the data from the .dat files - put it in the data vector
+		void ProcessData();																																// Turn the data into Isotopes
+		void CreateIntensityMatrix(int source = 0);																				// Calculate max and average yields, depending on the requested source
+		void PlotMeanIntensity();																													// Plot TH2D of the mean intensity
+		void PlotMaxIntensity();																													// Plot TH2D of the maximum intensity
 
-		int IonSourceComparison(std::string input);																		// Turn ionsource into int (All = 0, Re surface = 1, Ta surface = 2, TRILIS = 3, IG-LIS = 4, FEBIAD = 5)
+		int IonSourceComparison(std::string input);																				// Turn ionsource into int (All = 0, Re surface = 1, Ta surface = 2, TRILIS = 3, IG-LIS = 4, FEBIAD = 5)
 
-		void Connect(){																																// Create the connection between the TCanvas and the MouseAction class which interprets the events
+		void Connect(){																																		// Create the connection between the TCanvas and the MouseAction class which interprets the events
 			mouseaction = new MouseAction();
 			c1->Connect("ProcessedEvent(Int_t,Int_t,Int_t,TObject*)","MouseAction",mouseaction,"EventInfo(Int_t,Int_t,Int_t,TObject*)");
 			mouseaction->Connect("SetPxPy(Int_t,Int_t)","YieldGrabber",this,"SetPxPy(Int_t,Int_t)");
 		}
-		void SetPxPy(Int_t px, Int_t py){																							// Take the output from the MouseAction->YieldGrabber connection and turn it into something meaningful 
-			n_stored = px+1; 																														// Get the N value and store it
-			z_stored = py+1;																														// Get the Z value and store it
+		void SetPxPy(Int_t px, Int_t py){																									// Take the output from the MouseAction->YieldGrabber connection and turn it into something meaningful 
+			n_stored = px+1; 																																// Get the N value and store it
+			z_stored = py+1;																																// Get the Z value and store it
 			cout << "N: " << n_stored << " Z: " << z_stored << endl;												
 			cout << "Printing isotope info..." << endl;
-			c1=(TCanvas*)gROOT->FindObject("c1");																				// Re-find the Canvas - otherwise you get segmentation faults when ROOT can't find it		
-			PrintIsotopeInfo();																													// Print all of the yields corresponding to the selected isotope
+			c1=(TCanvas*)gROOT->FindObject("c1");																						// Re-find the Canvas - otherwise you get segmentation faults when ROOT can't find it		
+			PrintIsotopeInfo();																															// Print all of the yields corresponding to the selected isotope
 		}	
 
-		void Start();																																	// Initialises everything and starts the data grabbomg
+		void Start(const char* inp = "./Data/");																					// Initialises everything and starts the data grabbomg
 
-		void PrintMeanIntensity(int, int);																						// Prints the average intensity for a given isotope
+		void PrintMeanIntensity(int, int);																								// Prints the average intensity for a given isotope
 
-		TH2D *avg_intensity_hist;																											// Mean intensity histogram
-		TH2D *intensity_hist;																													// Max intensity histogram
+		TH2D *avg_intensity_hist;																													// Mean intensity histogram
+		TH2D *intensity_hist;																															// Max intensity histogram
 
-		TCanvas *c1;																																	// THE canvas
+		TCanvas *c1;																																			// THE canvas
 
 };
 #endif
@@ -94,7 +96,6 @@ YieldGrabber::YieldGrabber()
 { 
 	data_grabbed = false;
 	Clear();
-	Start();		
 } 
 
 void YieldGrabber::Clear() 
@@ -161,7 +162,7 @@ void YieldGrabber::PlotMaxIntensity(){
 		}
 	}
 
-  intensity_hist->SetTitle(Form("%s; Proton Number; Neutron Number;",intensity_hist->GetTitle()));
+  intensity_hist->SetTitle(Form("%s; Neutron Number; Proton Number;",intensity_hist->GetTitle()));
 	intensity_hist->GetXaxis()->CenterTitle();
 	intensity_hist->GetYaxis()->CenterTitle();
 
@@ -225,7 +226,7 @@ void YieldGrabber::PlotMeanIntensity(){
 		}
 	}
 
-  avg_intensity_hist->SetTitle(Form("%s; Proton Number; Neutron Number;",avg_intensity_hist->GetTitle()));
+  avg_intensity_hist->SetTitle(Form("%s; Neutron Number; Proton Number;",avg_intensity_hist->GetTitle()));
 	avg_intensity_hist->GetXaxis()->CenterTitle();
 	avg_intensity_hist->GetYaxis()->CenterTitle();
 	

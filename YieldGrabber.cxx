@@ -186,12 +186,12 @@ void YieldGrabber::PrintIsotopeInfo(int z_in, int n_in){
 
 }
 
-void YieldGrabber::GrabData(const char* target){
+void YieldGrabber::GrabData(const char* target, const char* datadir){
 
 
 
 	char name[64];
-	strcpy(name,"./Data/");
+	strcpy(name,datadir);
 	strcat(name,target);
 	strcat(name,".dat");
 
@@ -241,20 +241,20 @@ void YieldGrabber::GrabData(const char* target){
 }
 
 
-void YieldGrabber::Start(){
+void YieldGrabber::Start(const char *inp){
 
 	Clear();
 
 	printf("Loading matrices\n");
 
-	GrabData("SiC");
-	GrabData("TiC");
-	GrabData("NiO");
-	GrabData("ZrC");
-	GrabData("Nb");
-	GrabData("Ta");
-	GrabData("Th");
-	GrabData("U");
+	GrabData("SiC",inp);
+	GrabData("TiC",inp);
+	GrabData("NiO",inp);
+	GrabData("ZrC",inp);
+	GrabData("Nb",inp);
+	GrabData("Ta",inp);
+	GrabData("Th",inp);
+	GrabData("U",inp);
 
 	cout << "Processing data..." << endl;
 
