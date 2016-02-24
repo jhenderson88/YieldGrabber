@@ -24,7 +24,7 @@ To, for example, plot average yields:
 
 > t.PlotMeanIntensity()
 
-Or
+Or, for maximum yields:
 
 > t.PlotMaxIntensity()
 
