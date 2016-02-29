@@ -155,32 +155,32 @@ void YieldGrabber::PrintIsotopeInfo(){
 
 void YieldGrabber::PrintIsotopeInfo(int z_in, int n_in){
 
-	int z = z_in -1;
-	int n = n_in -1;
+	int z = z_in;
+	int n = n_in;
 
 	if(!data_grabbed)
 		Start();
 	
-	PrintMeanIntensity(n_in,z_in);
+	PrintMeanIntensity(n_in-1,z_in-1);
 
 	int n_states=0;
-	for(unsigned int i=0;i<Nuclei[n][z].yield.size();i++){
-		if(Nuclei[n][z].state.at(i) > n_states)
-			n_states = Nuclei[n][z].state.at(i);
+	for(unsigned int i=0;i<Nuclei[n-1][z-1].yield.size();i++){
+		if(Nuclei[n-1][z-1].state.at(i) > n_states)
+			n_states = Nuclei[n-1][z-1].state.at(i);
 	}
 
 	cout << "Number of states (ground + metastable): " << n_states << endl;
 	
 	for(int j=0;j<n_states;j++){
 		if(j>0)
-			cout << "Nucleus: " << z_in+n_in << element[z] << "m" << j << endl;
+			cout << "Nucleus: " << z_in+n_in << element[z-1] << "m" << j << endl;
 		else
-			cout << "Nucleus: " << z_in+n_in << element[z] << endl;
+			cout << "Nucleus: " << z_in+n_in << element[z-1] << endl;
 
 		cout << "Yield:\t\t\t\tProton current:\t\tTarget:\t\t\tIon source:" << endl;
-		for(unsigned int i=0;i<Nuclei[n][z].yield.size();i++){
-			if(Nuclei[n][z].state.at(i) == j+1)
-				cout << std::setw(10) << std::setprecision(5) << std::scientific << Nuclei[n][z].yield.at(i) << "\t\t\t" << Nuclei[n][z].proton_current.at(i) << "\t\t\t" << Nuclei[n][z].tar_mat.at(i)  << "\t\t\t" << Nuclei[n][z].ion_source.at(i) << endl;
+		for(unsigned int i=0;i<Nuclei[n-1][z-1].yield.size();i++){
+			if(Nuclei[n-1][z-1].state.at(i) == j+1)
+				cout << std::setw(10) << std::setprecision(5) << std::scientific << Nuclei[n-1][z-1].yield.at(i) << "\t\t\t" << Nuclei[n-1][z-1].proton_current.at(i) << "\t\t\t" << Nuclei[n-1][z-1].tar_mat.at(i)  << "\t\t\t" << Nuclei[n-1][z-1].ion_source.at(i) << endl;
 		}
 	}
 

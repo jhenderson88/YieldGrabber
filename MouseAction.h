@@ -81,7 +81,7 @@ void MouseAction::EventInfo(Int_t event, Int_t px, Int_t py, TObject *selected)	
 
 void MouseAction::PrintEventInfo(Int_t px, Int_t py){																	// Prints the isotope corresponding to X (N) and Y (Z)
 	
-	std::cout << "Isotope: " << px+py+2 << element[py] << std::endl;															// Uses the string array, elements (up to Pu)
+	std::cout << "Isotope: " << px+py << element[py-1] << std::endl;															// Uses the string array, elements (up to Pu)
 
 }
 

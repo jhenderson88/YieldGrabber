@@ -69,8 +69,8 @@ class YieldGrabber {																																// The class itself
 			mouseaction->Connect("SetPxPy(Int_t,Int_t)","YieldGrabber",this,"SetPxPy(Int_t,Int_t)");
 		}
 		void SetPxPy(Int_t px, Int_t py){																							// Take the output from the MouseAction->YieldGrabber connection and turn it into something meaningful 
-			n_stored = px+1; 																														// Get the N value and store it
-			z_stored = py+1;																														// Get the Z value and store it
+			n_stored = px; 																														// Get the N value and store it
+			z_stored = py;																														// Get the Z value and store it
 			cout << "N: " << n_stored << " Z: " << z_stored << endl;												
 			cout << "Printing isotope info..." << endl;
 			c1=(TCanvas*)gROOT->FindObject("c1");																				// Re-find the Canvas - otherwise you get segmentation faults when ROOT can't find it		
@@ -157,7 +157,7 @@ void YieldGrabber::PlotMaxIntensity(){
 	intensity_hist = new TH2D("Max_Intensity_Matrix","Maximum Intensity Matrix",160,0,160,110,0,110);
 	for(int i=0;i<146;i++){
 		for(int j=0;j<94;j++){
-			intensity_hist->SetBinContent(i,j,Nuclei[i][j].max_yield);
+			intensity_hist->SetBinContent(i+1,j+1,Nuclei[i][j].max_yield);
 		}
 	}
 
@@ -221,7 +221,7 @@ void YieldGrabber::PlotMeanIntensity(){
 	avg_intensity_hist = new TH2D("Avg_Intensity_Matrix","Average Yield",160,0,160,110,0,110);
 	for(int i=0;i<146;i++){
 		for(int j=0;j<94;j++){
-			avg_intensity_hist->SetBinContent(i,j,Nuclei[i][j].avg_yield);
+			avg_intensity_hist->SetBinContent(i+1,j+1,Nuclei[i][j].avg_yield);
 		}
 	}
 
