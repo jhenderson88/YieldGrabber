@@ -154,7 +154,7 @@ void YieldGrabber::PlotMaxIntensity(){
 		clickable = false;
 	}
 
-	intensity_hist = new TH2D("Max_Intensity_Matrix","Maximum Intensity Matrix",160,0,160,110,0,110);
+	intensity_hist = new TH2D("Max_Intensity_Matrix","Maximum Intensity Matrix",160,1,161,110,1,111);
 	for(int i=0;i<146;i++){
 		for(int j=0;j<94;j++){
 			intensity_hist->SetBinContent(i+1,j+1,Nuclei[i][j].max_yield);
@@ -218,7 +218,7 @@ void YieldGrabber::PlotMeanIntensity(){
 		clickable = false;
 	}
 
-	avg_intensity_hist = new TH2D("Avg_Intensity_Matrix","Average Yield",160,0,160,110,0,110);
+	avg_intensity_hist = new TH2D("Avg_Intensity_Matrix","Average Yield",160,1,161,110,1,111);
 	for(int i=0;i<146;i++){
 		for(int j=0;j<94;j++){
 			avg_intensity_hist->SetBinContent(i+1,j+1,Nuclei[i][j].avg_yield);
